@@ -1,70 +1,116 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 🌸 Sanskruti's Developer Portfolio
 
-## Available Scripts
+A beautiful and functional full-stack developer portfolio built with **React** and **Tailwind CSS**, featuring a cherry blossom animated background, EmailJS-powered contact form, and well-structured sections for About, Education, Experience, Skills, and Projects.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## ✨ Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+-  Aesthetic design with animated cherry blossom petals using `<canvas>`
+-  Fully responsive layout with Tailwind CSS
+-  Contact form integration with [EmailJS](https://www.emailjs.com/)
+-  Location: India (photo & social links included)
+-  Sections for About, Education, Experience, Skills, and Projects
+-  Cherry blossom background and theme
+- ☁ Deployed & production-ready layout
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🛠️ Tech Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+| Tech        | Description                            |
+|-------------|----------------------------------------|
+| React       | Frontend framework                     |
+| Tailwind CSS| Utility-first CSS styling              |
+| EmailJS     | Sends form data via email without backend |
+| JavaScript  | Logic and form handling                |
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📂 Folder Structure
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+my-portfolio/
+├── public/
+│   ├── your-photo.jpg
+│   ├── doll.png
+│   └── index.html
+├── src/
+│   ├── components/
+│   │   ├── Navbar.js
+│   │   ├── Skills.js
+│   │   ├── Projects.js
+│   │   └── snow-tree.png
+│   ├── App.js
+│   ├── App.css
+│   └── index.js
+├── package.json
+└── tailwind.config.js
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+##  Getting Started
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 1. Clone the repository
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+``bash
+git clone https://github.com/sanskrutigadekar/my-portfolio.git
+cd my-portfolio
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2. Install dependencies
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+npm install
 
-## Learn More
+3. Start the development server
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+npm start
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Open http://localhost:3000 in your browser.
 
-### Code Splitting
+⸻
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Contact Form Setup (EmailJS)
+	1.	Go to EmailJS
+	2.	Create an account and set up a new email service
+	3.	Create a template (e.g. template_lq04hzd)
+	4.	Add the Public API Key (found under Account > API Keys)
+	5.	Use your:
+	•	Service ID
+	•	Template ID
+	•	Public Key
 
-### Analyzing the Bundle Size
+Make sure not to expose your private key in public repos.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+⸻
 
-### Making a Progressive Web App
+Customization Tips
+	•	Replace /your-photo.jpg with your own image
+	•	Update resume and social media links
+	•	Modify theme colors via Tailwind classes
+	•	Add more sections or animations if you’d like
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+⸻
 
-### Advanced Configuration
+Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+You can deploy your portfolio on:
+	•	Vercel
+	•	Netlify
 
-### Deployment
+npm run build
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Then drag the build/ folder to Vercel/Netlify, or link your GitHub repo.
 
-### `npm run build` fails to minify
+⸻
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Acknowledgements
+	•	EmailJS for free email integration
+	•	Tailwind CSS for fast UI development
+	•	Cherry blossom effect inspired by canvas animations
+
+⸻
+
+
+---
+
+Would you like me to include your actual GitHub link or generate the images for the screenshots too?
