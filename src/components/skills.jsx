@@ -8,26 +8,11 @@ import {
   FaRobot,
   FaCloud,
   FaBrain,
-  FaTools,
   FaChalkboardTeacher,
   FaUsers,
 } from "react-icons/fa";
 import {
-  SiMongodb,
-  SiMysql,
-  SiTailwindcss,
   SiReact,
-  SiJavascript,
-  SiPython,
-  SiNodedotjs,
-  SiExpress,
-  SiAmazonaws,
-  SiTensorflow,
-  SiOpencv,
-  SiCplusplus,
-  SiBootstrap,
-  SiHtml5,
-  SiCss3,
 } from "react-icons/si";
 
 const skills = [
