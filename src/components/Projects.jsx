@@ -49,30 +49,6 @@ const Projects = () => {
         "Backend powered by Node.js and MySQL",
         "Frontend uses Bootstrap for responsiveness"
       ]
-    },
-    {
-      id: 5,
-      title: "Fitness Tracker",
-      image: "https://via.placeholder.com/800x500?text=Fitness+Tracker",
-      tech: ["TypeScript", "GraphQL", "MongoDB", "Node.js"],
-      description: [
-        "Workout logging and progress tracking",
-        "Nutrition planner with calorie counter",
-        "Social features for community challenges",
-        "Data visualization for performance metrics"
-      ]
-    },
-    {
-      id: 6,
-      title: "Weather Dashboard",
-      image: "https://via.placeholder.com/800x500?text=Weather+Dashboard",
-      tech: ["React", "D3.js", "Weather API", "Geolocation"],
-      description: [
-        "Real-time weather data visualization",
-        "5-day forecast with interactive charts",
-        "Location-based weather alerts",
-        "Customizable dashboard layout"
-      ]
     }
   ];
 
