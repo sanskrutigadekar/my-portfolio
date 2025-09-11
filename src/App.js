@@ -293,6 +293,7 @@ function App() {
                   <input
                     type="text"
                     name='name'
+                    required
                     placeholder="Your name"
                     className="w-full p-3 rounded-lg border border-rose-300 focus:outline-none focus:ring-2 focus:ring-rose-400 text-rose-900"
                   />
@@ -302,6 +303,7 @@ function App() {
                   <input
                     type="email"
                     name='email'
+                    required
                     placeholder="Your email"
                     className="w-full p-3 rounded-lg border border-rose-300 focus:outline-none focus:ring-2 focus:ring-rose-400 text-rose-900"
                   />
@@ -312,6 +314,7 @@ function App() {
                 <label className="block font-medium mb-2 text-rose-800">Message</label>
                 <textarea
                   name='message'
+                  required
                   rows="5"
                   placeholder="Hey Sanskruti! Would like to connect with you!"
                   className="w-full p-3 rounded-lg border border-rose-300 focus:outline-none focus:ring-2 focus:ring-rose-400 text-rose-900"
