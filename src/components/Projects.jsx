@@ -4,8 +4,8 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: "Bytex: AI Gadget Recommendation",
-      image: "/bytex.jpeg",
+      title: "Gear-up: AI Gadget Recommendation",
+      image: "/gearup.png",
       tech: ["Next.js", "TailwindCSS", "Typescript", "Gemini AI"],
       description: [
         "Shows electronics products like monitors and accessories",
