@@ -261,7 +261,7 @@ function App() {
             {/* Experience Card */}
             <div className="bg-rose-50 rounded-xl shadow-md p-6">
               <h4 className="text-3xl font-semibold text-rose-700 mb-1">Web Development Intern</h4>
-              <p className="text-base text-rose-800 mb-2">Vande Bharat</p>
+              <p className="text-base text-rose-800 mb-2">Vandan Bharat</p>
               <p className="text-base text-rose-600 mb-4">Jan 2025 – March 2025</p>
               <ul className="list-disc list-inside text-base text-rose-800 space-y-1">
                 <li>Developed a AI gadget recommendation system</li>
