@@ -156,7 +156,7 @@ function App() {
             <div className="mt-6 flex flex-col items-center gap-4">
               <div className="flex gap-4">
                 <a
-                  href="https://drive.google.com/file/d/1zVTpDZbByGH-69bEKQzA1YTQGxEMuy81/view?usp=drive_link"
+                  href="https://drive.google.com/file/d/179EwHYZ8Vu47d0MY0BiqrwMH-7ld-fGA/view?usp=sharing"
                   className="bg-rose-600 text-white px-5 py-2 rounded-lg shadow hover:bg-rose-700 text-center"
                 >
                   Resume
